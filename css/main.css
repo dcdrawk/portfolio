@@ -1,4 +1,4 @@
-/*COLORS: Orange - #F29021 | Blue - #16617E */
+/*COLORS: Orange - #F29021 | Dark Orange - #D64815 | Blue - #16617E */
 
 body{
 	padding: 0px;
@@ -45,7 +45,7 @@ nav a{
 h1{
 	font-family:'Source Sans Pro', sans-serif;
 	font-weight:300;
-	font-size:3em;
+	font-size:2.5em;
 	color: #F29021;
 	margin-top:0;
 	margin-bottom:0;
@@ -54,7 +54,20 @@ h1{
 h2{
 	color: #A7A7A7;
 	margin-top:0;
+	margin-bottom:0;
 	font-weight:300;
+}
+
+h3{
+	font-family:'Source Sans Pro', sans-serif;
+	font-weight:900;
+	border-bottom: 1px solid #D64815;
+	color:#D64815;
+	width:100%;
+}
+
+strong{
+	font-weight:600;
 }
 
 .navLink{
@@ -97,9 +110,12 @@ figure{
 .contentPane{
 	text-align:left!important;
 	background-image:url(../img/bg/egg_shell.png);
+	height:auto;
 	margin:.5em;
 	padding:1em!important;
 	box-shadow:5px 5px 5px #888888;
+	border:1px solid #F29021;
+	overflow: auto;
 }
 
 #devin img{
@@ -109,8 +125,161 @@ figure{
 	margin-bottom:.5em;
 }
 
+#cats img{
+	width:100%;
+}
+
 .project img{
 	width:100%;
-	margin-top:.5em;
+	margin-bottom:1em;
+}
+
+.borderBottom{
+	border-bottom:1px dashed #888888;
+}
+
+table{
+	margin-top:1em;
+}
+
+th{
+	color:#F29021;
+	font-weight:600;
+	text-align:right;
+	vertical-align:top;
+}
+
+tr, td{
+	padding-left:1em;
+	padding-right:1em;
+	padding-bottom:.5em;
+}
+
+td em{
+	color:#888888;
+}
+
+.project{
+	text-align:left;
+	padding:.5em;
+	
+}
+
+.project img{
+	width:100%;
+}
+
+.project h1{
+	font-size:2em;
+	text-shadow:2px 2px black;
+
+}
+
+.project p{
+	color:white;
+	text-shadow:2px 2px black;
+
+}
+
+.project h2{
+	font-size:1.5em;
+	color:#C9C9C9;
+	text-shadow:2px 2px black;
+}
+
+.projectWindow{
+	padding:1em;
+}
+
+.projectWindow p, .projectWindow strong{
+	margin-top:0;
 	margin-bottom:.5em;
+	color:white;
+}
+
+.projectWindow h1{
+	color:#D64815;
+	font-weight:500;
+	border-bottom:1px solid #D64815;
+	margin-bottom:.5em;
+	text-shadow:2px 2px black;
+}
+
+.close{
+	float:right;
+	cursor:pointer;
+	font-size:.7em;
+	color:#888;
+}
+
+#uforia{
+	height:13em;
+	padding:1em;
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/uforia.jpg);
+	background-size:cover;
+	background-color:rgba(55, 55, 55, 0.50);
+	transition:box-shadow .3s ease;
+	cursor:pointer;
+}
+
+#uforia:hover, #theSandwich:hover, #gestureRemote:hover, #harvey:hover, #qwert:hover{
+	box-shadow:inset 0px 0px 50px rgb(150, 150, 150);
+}
+
+#theSandwich{
+	height:13em;
+	padding:1em;
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/sandwich.jpg);
+	background-size:cover;
+	background-color:#888;
+	transition:box-shadow .3s ease;
+	cursor:pointer;
+}
+
+#gestureRemote{
+	height:13em;
+	padding:1em;
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/kinect.jpg);
+	background-size:cover;
+	background-color:#888;
+	transition:box-shadow .3s ease;
+	cursor:pointer;
+}
+
+#harvey{
+	height:13em;
+	padding:1em;
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/harvey.jpg);
+	background-size:cover;
+	background-color:#888;
+	transition:box-shadow .3s ease;
+	cursor:pointer;
+}
+
+#qwert{
+	height:13em;
+	padding:1em;
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/qwert.jpg);
+	background-size:cover;
+	background-color:#888;
+	transition:box-shadow .3s ease;
+	cursor:pointer;
+}
+
+iframe{
+	display:inline;
+	float:right;
+	margin:1em;
+	margin-top:0;
+	margin-right:0;
+}
+
+#uforiaProject{
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/uforia.jpg);
+	background-size:cover;
+	background-color:rgba(55, 55, 55, 0.50);	
+}
+
+.selectedProject{
+
 }

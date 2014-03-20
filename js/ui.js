@@ -4,52 +4,57 @@ $(document).ready( function() {
 	*/
 	// var variable = "Debugging test";
 	// $("title").html("Info: "+variable);
-
+	var selected = 'none';
+	var displayProject = false;
+	
 	/*
-	$("a[href$='.html']").click( function(clickEvent) {
-		
-		clickEvent.preventDefault();
-		
-		var file = $(this).attr("href");
-		// $("title").html("Info: "+file);
-		
-		$("section#main").load(file+" #content");
-	});
+	if ($(window).width() > 555) {
+	}	
 	*/
-
-	$("#vesselSpecs").hide();
-	$("#reviews").hide();
-	$("#addReview").hide();
 	
-	$("#noJS").hide();
-	$("#yesJS").hide();
-	$("#added").hide();
+	$("#theSandwichProject").hide();
+	$("#uforiaProject").hide();
 	
-	$("#yesJS").show();
-	
-	$("#toCheckout").hide();
-	
-	$("#yesJS").click(function(){
-		$("#yesJS").hide();
-		$("#added").show();
-		$("#toCheckout").show();
+	$("#uforia").click(function(){
+		if (displayProject == false) {
+			$( "#uforiaProject" ).slideDown();
+			displayProject = true;
+			selected = 'uforia';
+		}else{
+			if(selected == 'uforia'){
+			}else{
+				$('.selectedProject').fadeOut('slow', function(){
+					$('#uforiaProject').fadeIn('slow');
+				});
+				$( '.selectedProject' ).removeClass( ".selectedProject" );
+				selected = 'uforia';
+				$( '#uforiaProject' ).addClass( "selectedProject" );
+			}
+		}
 	});
 	
-	$("#toggleSpecs").click(function(){
-		$("#vesselSpecs").slideToggle();
+	$("#theSandwich").click(function(){
+		if (displayProject == false) {
+			$( "#theSandwichProject" ).slideDown();
+			displayProject = true;
+			selected = 'sandwich';
+		}else{
+			if(selected == 'sandwich'){
+			
+			}else{
+				$('.selectedProject').fadeOut('slow', function(){
+					$('#theSandwichProject').fadeIn('slow');
+				});
+				$( '.selectedProject' ).removeClass( ".selectedProject" );
+				selected = 'sandwich';
+				$( '#theSandwichProject' ).addClass( "selectedProject" );
+			}
+		}	
 	});
 	
-	$("#toggleReviews").click(function(){
-		$("#reviews").slideToggle();
+	
+	$(".close").click(function(){
+		$(".projectWindow").slideUp();
 	});
 	
-	$("#toggleAddReview").click(function(){
-		$("#addReview").slideToggle();
-	});
-	
-	/* This hides the 'submit' button, replacing it with a 'submitted!' button */
-	$("#submitComment").click(function(){
-		$("#submitComment").hide();
-		$("#submitted").show();
-	});
 });
