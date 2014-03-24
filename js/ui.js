@@ -19,17 +19,24 @@ $(document).ready( function() {
 		if (displayProject == false) {
 			$( "#uforiaProject" ).slideDown();
 			displayProject = true;
-			selected = 'uforia';
+			selected = '#uforiaProject';
+			$( '#uforiaProject' ).addClass( ".selectedProject" );
 		}else{
-			if(selected == 'uforia'){
-			}else{
-				$('.selectedProject').fadeOut('slow', function(){
-					$('#uforiaProject').fadeIn('slow');
-				});
-				$( '.selectedProject' ).removeClass( ".selectedProject" );
-				selected = 'uforia';
-				$( '#uforiaProject' ).addClass( "selectedProject" );
+			if(selected == '#uforiaProject'){
+				$( '#uforiaProject' ).removeClass( ".selectedProject" );
+				$( "#uforiaProject" ).slideUp();
+				selected = 'none';
+				displayProject = false;
 			}
+		}
+		if (displayProject == true && selected != '#uforiaProject'){
+			$( selected ).fadeOut('slow', function(){
+					$('#uforiaProject').fadeIn('slow');
+			});
+			$( selected ).removeClass( ".selectedProject" );
+			selected = "#uforiaProject"
+			$( selected ).addClass( ".selectedProject" );
+			$("title").html("test "+selected);
 		}
 	});
 	
@@ -37,24 +44,35 @@ $(document).ready( function() {
 		if (displayProject == false) {
 			$( "#theSandwichProject" ).slideDown();
 			displayProject = true;
-			selected = 'sandwich';
+			selected = '#theSandwichProject';
+			$( '#theSandwichProject' ).addClass( ".selectedProject" );
 		}else{
-			if(selected == 'sandwich'){
-			
-			}else{
-				$('.selectedProject').fadeOut('slow', function(){
-					$('#theSandwichProject').fadeIn('slow');
-				});
-				$( '.selectedProject' ).removeClass( ".selectedProject" );
-				selected = 'sandwich';
-				$( '#theSandwichProject' ).addClass( "selectedProject" );
+			if(selected == '#theSandwichProject'){
+				$( '#theSandwichProject' ).removeClass( ".selectedProject" );
+				$( "#theSandwichProject" ).slideUp();
+				selected = 'none';
+				displayProject = false;
 			}
-		}	
+		}
+		if (displayProject == true && selected != '#theSandwichProject'){
+			$( selected ).fadeOut('slow', function(){
+					$('#theSandwichProject').fadeIn('slow');
+			});
+			$( selected ).removeClass( ".selectedProject" );
+			selected = "#theSandwichProject"
+			$( selected ).addClass( ".selectedProject" );
+			$("title").html("test "+selected);
+		}
 	});
 	
 	
+	
+	
 	$(".close").click(function(){
-		$(".projectWindow").slideUp();
+		$( selected ).slideUp();
+		$( selected ).removeClass( ".selectedProject" );
+		selected = 'none';
+		displayProject = false;
 	});
 	
 });

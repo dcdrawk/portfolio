@@ -39,7 +39,7 @@ nav a{
 	color:#16617E;
 	display:inline;
 	text-decoration:none;
-	font-size:1.5em;
+	font-size:1.25em;
 }
 
 h1{
@@ -99,7 +99,8 @@ figure{
 }
 
 #logo img{
-	height:7em;
+	margin-top:.25em;
+	height:5em;
 }
 
 #content{
@@ -136,6 +137,10 @@ figure{
 
 .borderBottom{
 	border-bottom:1px dashed #888888;
+}
+
+.padding{
+	padding:1em;
 }
 
 table{
@@ -188,7 +193,8 @@ td em{
 }
 
 .projectWindow{
-	padding:1em;
+	padding-right:.5em;
+	padding-left:.5em;
 }
 
 .projectWindow p, .projectWindow strong{
@@ -272,10 +278,17 @@ iframe{
 	margin:1em;
 	margin-top:0;
 	margin-right:0;
+	border:2px solid #666;
 }
 
 #uforiaProject{
 	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/uforia.jpg);
+	background-size:cover;
+	background-color:rgba(55, 55, 55, 0.50);	
+}
+
+#theSandwichProject{
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/sandwich.jpg);
 	background-size:cover;
 	background-color:rgba(55, 55, 55, 0.50);	
 }
