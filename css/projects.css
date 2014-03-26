@@ -1,0 +1,180 @@
+.projectLink{
+	background-position: 0 -2em;
+	height:5em!important;
+	text-align:left;
+	text-shadow:2px 2px black;
+	margin-top:.5em;
+	padding:1em;
+	padding-top:.5em;
+	margin-top:0;
+	border-bottom:2px solid rgb(18, 47, 99);
+}
+
+#projectSidebar{
+	margin-top:.5em;
+	width:18em;
+	display:block;
+	position:fixed;
+	top:60px;
+	float:left;
+	clear:both;
+	background-color:rgb(18, 47, 99);
+	border:2px solid rgb(18, 47, 99);
+}
+
+#projectSidebar a{
+	text-decoration:none;
+}
+#projectSidebar ul{
+	padding:0;
+	margin:0;
+}
+#projectSidebar ul li{
+	list-style:none;
+}
+
+#projects{
+	float:right;
+}
+
+.titleBar{
+	margin-bottom:.5em;
+}
+
+.projectLink h1{
+	font-size:1.5em;
+	color:#7A4B16;
+	-webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.projectLink h2{
+	font-size:1.2em;
+	color:#747474;
+	-webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.projectLink p{
+	font-size:.8em;
+	color:white;
+}
+
+.viewing h1{
+	font-size:1.5em;
+	color:#F29021;
+}
+
+.viewing h2{
+	font-size:1.2em;
+	color:#A7A7A7;
+}
+
+#projectSidebar .active h1{
+	color:#F29021;
+}
+
+.project{
+	margin-bottom:2em;
+}
+.projectWindow{
+	margin-top:.3em;
+}
+
+.projectWindow p, .projectWindow strong{
+	margin-top:0;
+	margin-bottom:.5em;
+	color:black;
+}
+
+.projectWindow h1{
+	color:#D64815;
+	font-weight:500;
+	border-bottom:1px solid #D64815;
+	margin-bottom:.5em;
+	text-shadow:2px 2px #999;
+}
+
+.close{
+	float:right;
+	cursor:pointer;
+	font-size:.7em;
+	color:#888;
+}
+
+#uforia{
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/uforia.jpg);
+	background-size:cover;
+	background-color:rgba(55, 55, 55, 0.50);
+	transition:box-shadow .3s ease;
+	cursor:pointer;
+}
+
+#uforia:hover, #theSandwich:hover, #gestureRemote:hover, #harvey:hover, #qwert:hover, #amnesia:hover{
+	box-shadow:inset 0px 0px 50px rgb(150, 150, 150);
+}
+
+#theSandwich{
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/sandwich.jpg);
+	background-size:cover;
+	background-color:#888;
+	transition:box-shadow .3s ease;
+	cursor:pointer;
+}
+
+#gestureRemote{
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/kinect.jpg);
+	background-size:cover;
+	background-color:#888;
+	transition:box-shadow .3s ease;
+	cursor:pointer;
+}
+
+#harvey{
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/harvey.jpg);
+	background-size:cover;
+	background-color:#888;
+	transition:box-shadow .3s ease;
+	cursor:pointer;
+}
+
+#qwert{
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/qwert.jpg);
+	background-size:cover;
+	background-color:#888;
+	transition:box-shadow .3s ease;
+	cursor:pointer;
+}
+
+#amnesia{
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/amnesia.jpg);
+	background-size:cover;
+	background-color:#888;
+	transition:box-shadow .3s ease;
+	cursor:pointer;
+}
+
+iframe{
+	width:100%;
+	display:inline;
+	margin:1em;
+	margin-left:0;
+	margin-top:0;
+	margin-right:0;
+	border:2px solid #666;
+}
+
+#uforiaProject{
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/uforia.jpg);
+	background-size:cover;
+	background-color:rgba(55, 55, 55, 0.50);	
+}
+
+#theSandwichProject{
+	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/sandwich.jpg);
+	background-size:cover;
+	background-color:rgba(55, 55, 55, 0.50);	
+}

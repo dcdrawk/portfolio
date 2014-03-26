@@ -6,15 +6,12 @@ $(document).ready( function() {
 	// $("title").html("Info: "+variable);
 	var selected = 'none';
 	var displayProject = false;
-	
 	/*
 	if ($(window).width() > 555) {
 	}	
 	*/
 	
-	$("#theSandwichProject").hide();
-	$("#uforiaProject").hide();
-	
+	/*
 	$("#uforia").click(function(){
 		if (displayProject == false) {
 			$( "#uforiaProject" ).slideDown();
@@ -65,9 +62,11 @@ $(document).ready( function() {
 		}
 	});
 	
+	*/
+
+	$( "#scrollHeader" ).hide();
 	
-	
-	
+	;
 	$(".close").click(function(){
 		$( selected ).slideUp();
 		$( selected ).removeClass( ".selectedProject" );

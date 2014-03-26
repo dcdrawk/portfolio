@@ -24,7 +24,7 @@ function hideDiv(){
 
 }
 $(document).ready( function() {
-	
+
 	$("#menuBtn").hide(); 	//hides the initial menu button, even though it's display is already set to none, allows us to show it again
 							//so if javascript is enabled, this button will show
 	

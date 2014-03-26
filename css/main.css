@@ -27,12 +27,16 @@ header{
 	height:auto;
 	background-image:url(../img/bg/az_subtle.png);
 	border-bottom: solid 2px #F29021;
-	box-shadow:0px 5px 5px #888888;
+	box-shadow:0px 2px 2px #888888;
+	position:fixed;
+	width:100%;
+	margin-bottom:1em;
 }
 
 nav{
 	width:70%;
 	display:inline-block;
+	vertical-align:bottom;
 }
 
 nav a{
@@ -100,12 +104,25 @@ figure{
 
 #logo img{
 	margin-top:.25em;
-	height:5em;
+	height:2em;
+	margin-right:1em;
+}
+
+#logo h1{
+	font-size:2em;
+	font-weight:500;
+	display:inline;
+	color:#888;
 }
 
 #content{
 	width:960px;
 	margin:auto;
+	margin-top:4em;
+}
+
+.inline{
+	display:inline;
 }
 
 .contentPane{
@@ -114,7 +131,6 @@ figure{
 	height:auto;
 	margin:.5em;
 	padding:1em!important;
-	box-shadow:5px 5px 5px #888888;
 	border:1px solid #F29021;
 	overflow: auto;
 }
@@ -163,15 +179,12 @@ tr, td{
 td em{
 	color:#888888;
 }
-
+/*
 .project{
-	text-align:left;
-	padding:.5em;
-	
+
 }
 
 .project img{
-	width:100%;
 }
 
 .project h1{
@@ -191,108 +204,43 @@ td em{
 	color:#C9C9C9;
 	text-shadow:2px 2px black;
 }
+*/
 
-.projectWindow{
-	padding-right:.5em;
-	padding-left:.5em;
+
+
+.noMargin{
+	margin:0;
 }
 
-.projectWindow p, .projectWindow strong{
-	margin-top:0;
-	margin-bottom:.5em;
-	color:white;
+.noBorder{
+	border:0;
 }
 
-.projectWindow h1{
-	color:#D64815;
-	font-weight:500;
-	border-bottom:1px solid #D64815;
-	margin-bottom:.5em;
-	text-shadow:2px 2px black;
+.noPadding{
+	padding:0;
 }
 
-.close{
-	float:right;
-	cursor:pointer;
-	font-size:.7em;
-	color:#888;
+.hidden{
+	display:none;
 }
 
-#uforia{
-	height:13em;
-	padding:1em;
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/uforia.jpg);
-	background-size:cover;
-	background-color:rgba(55, 55, 55, 0.50);
-	transition:box-shadow .3s ease;
-	cursor:pointer;
+#scrollNav{
+display:inline;
+	position:absolute;
+	width:960px;
+	left:25%;
+}
+#scrollHeader{
+	height:1.8em;
+	position:fixed;
+	top:0;
+	width:100%;
+	background-image:url(../img/bg/az_subtle.png);
+	border-bottom: solid 2px #F29021;
+	box-shadow:0px 5px 5px #888888;
 }
 
-#uforia:hover, #theSandwich:hover, #gestureRemote:hover, #harvey:hover, #qwert:hover{
-	box-shadow:inset 0px 0px 50px rgb(150, 150, 150);
-}
-
-#theSandwich{
-	height:13em;
-	padding:1em;
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/sandwich.jpg);
-	background-size:cover;
-	background-color:#888;
-	transition:box-shadow .3s ease;
-	cursor:pointer;
-}
-
-#gestureRemote{
-	height:13em;
-	padding:1em;
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/kinect.jpg);
-	background-size:cover;
-	background-color:#888;
-	transition:box-shadow .3s ease;
-	cursor:pointer;
-}
-
-#harvey{
-	height:13em;
-	padding:1em;
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/harvey.jpg);
-	background-size:cover;
-	background-color:#888;
-	transition:box-shadow .3s ease;
-	cursor:pointer;
-}
-
-#qwert{
-	height:13em;
-	padding:1em;
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/qwert.jpg);
-	background-size:cover;
-	background-color:#888;
-	transition:box-shadow .3s ease;
-	cursor:pointer;
-}
-
-iframe{
+#scrollLogo img{
+	height:1.2em;
 	display:inline;
-	float:right;
-	margin:1em;
-	margin-top:0;
-	margin-right:0;
-	border:2px solid #666;
-}
-
-#uforiaProject{
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/uforia.jpg);
-	background-size:cover;
-	background-color:rgba(55, 55, 55, 0.50);	
-}
-
-#theSandwichProject{
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/sandwich.jpg);
-	background-size:cover;
-	background-color:rgba(55, 55, 55, 0.50);	
-}
-
-.selectedProject{
-
 }
