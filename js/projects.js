@@ -4,32 +4,46 @@ $(document).ready( function() {
 		var scrollPos = $(document).scrollTop();
 		$("title").html("s = " + scrollPos);
 		if(scrollPos > 0){
-			$('ul li a').removeClass("active");
-			$( ".uforiaClass" ).addClass('active');
+			$('ul li a').removeClass("activeLink");
+			$( ".aboutClass" ).addClass('activeLink');
 		}
-		if(scrollPos > 200){
-			$('ul li a').removeClass("active");
-			$( ".sandwichClass" ).addClass('active');
+		if(scrollPos > 450){
+			$('ul li a').removeClass("activeLink");
+			$( ".projectClass" ).addClass('activeLink');
+		}	
+		if(scrollPos > 1100){
+			$('ul li a').removeClass("activeLink");
+			$( ".uforiaClass" ).addClass('activeLink');
+		}
+		if(scrollPos > 1400){
+			$('ul li a').removeClass("activeLink");
+			$( ".sandwichClass" ).addClass('activeLink');
+		}
+		if(scrollPos > 2100){
+			$('ul li a').removeClass("activeLink");
+			$( ".gestureClass" ).addClass('activeLink');
+		}
+		if(scrollPos > 2800){
+			$('ul li a').removeClass("activeLink");
+			$( ".harveyClass" ).addClass('activeLink');
+		}
+		if(scrollPos > 3600){
+			$('ul li a').removeClass("activeLink");
+			$( ".qwertClass" ).addClass('activeLink');
+		}		
+		if(scrollPos > 4400){
+			$('ul li a').removeClass("activeLink");
+			$( ".amnesiaClass" ).addClass('activeLink');
+		}
+		if(scrollPos > 5100){
+			$('ul li a').removeClass("activeLink");
+			$( ".experienceClass" ).addClass('activeLink');
+		}
+		if(scrollPos > 5800){
+			$('ul li a').removeClass("activeLink");
+			$( ".contactClass" ).addClass('activeLink');
 		}
 		
-		if(scrollPos > 1000){
-			$('ul li a').removeClass("active");
-			$( ".gestureClass" ).addClass('active');
-		}
-		
-		if(scrollPos > 1800){
-			$('ul li a').removeClass("active");
-			$( ".harveyClass" ).addClass('active');
-		}
-		
-		if(scrollPos > 2600){
-			$('ul li a').removeClass("active");
-			$( ".qwertClass" ).addClass('active');
-		}
-		if(scrollPos > 3400){
-			$('ul li a').removeClass("active");
-			$( ".amnesiaClass" ).addClass('active');
-		}
 		
 	});
 	
@@ -93,8 +107,8 @@ $(document).ready( function() {
             menu = target;
         $target = $(target);
         $('html, body').stop().animate({
-            'scrollTop': $target.offset().top-70
-        }, 400, 'swing', function () {
+            'scrollTop': $target.offset().top-15
+        }, 600, 'swing', function () {
             
             $(document).on("scroll", onScroll);
         });
