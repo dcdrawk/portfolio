@@ -33,6 +33,7 @@
     -o-transition: all 0.25s ease;
     transition: all 0.25s ease;
 	width:100%;
+	text-shadow:2px 2px 2px #333;
 }
 
 #projectSidebar h1:hover{
@@ -78,6 +79,7 @@
     -moz-transition: all 0.25s ease;
     -o-transition: all 0.25s ease;
     transition: all 0.25s ease;
+	text-shadow:2px 2px 2px #333;
 }
 
 .projectLink p{

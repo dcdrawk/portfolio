@@ -3,7 +3,8 @@
 body{
 	padding: 0px;
 	background-image:url(../img/bg/orange_light.png);
-	font-family:'Source Sans Pro', sans-serif;	
+	font-family:'Source Sans Pro', sans-serif;
+	 background-attachment: fixed;
 }
 
 
@@ -53,10 +54,11 @@ h1{
 	color: #F29021;
 	margin-top:0;
 	margin-bottom:0;
+	text-shadow:2px 2px 2px #999;
 }
 
 h2{
-	color: #A7A7A7;
+	color: #777;
 	margin-top:0;
 	margin-bottom:0;
 	font-weight:300;
