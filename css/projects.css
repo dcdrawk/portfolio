@@ -1,6 +1,6 @@
 .projectLink{
 	background-position: 0 -2em;
-	height:5em!important;
+	height:3em!important;
 	text-align:left;
 	text-shadow:2px 2px black;
 	margin-top:.5em;
@@ -15,11 +15,31 @@
 	width:18em;
 	display:block;
 	position:fixed;
-	top:60px;
 	float:left;
 	clear:both;
-	background-color:rgb(18, 47, 99);
-	border:2px solid rgb(18, 47, 99);
+}
+
+#projectSidebar img{
+	width:18em;
+	margin-bottom:-1.5em;
+}
+
+#projectSidebar h1{
+	color:#fff;	
+	border-bottom:1px solid #0F3442;
+	font-size:2em;
+	-webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+	width:100%;
+}
+
+#projectSidebar h1:hover{
+	background-color:#11546F;	
+	border-bottom:1px solid #0F3442;
+	font-size:2em;
+	width:110%;
 }
 
 #projectSidebar a{
@@ -44,14 +64,17 @@
 .projectLink h1{
 	font-size:1.5em;
 	color:#7A4B16;
+	font-weight:500;
 	-webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     -o-transition: all 0.25s ease;
     transition: all 0.25s ease;
 }
+
 .projectLink h2{
-	font-size:1.2em;
-	color:#747474;
+	font-size:1.5em;
+	color:#7A4B16;
+	font-weight:400;
 	-webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     -o-transition: all 0.25s ease;
@@ -73,7 +96,7 @@
 	color:#A7A7A7;
 }
 
-#projectSidebar .active h1{
+#projectSidebar .active h2{
 	color:#F29021;
 }
 
@@ -106,7 +129,7 @@
 }
 
 #uforia{
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/uforia.jpg);
+	background-image:url(../img/projects/uforia.jpg);
 	background-size:cover;
 	background-color:rgba(55, 55, 55, 0.50);
 	transition:box-shadow .3s ease;
@@ -118,7 +141,7 @@
 }
 
 #theSandwich{
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/sandwich.jpg);
+	background-image:url(../img/projects/sandwich.jpg);
 	background-size:cover;
 	background-color:#888;
 	transition:box-shadow .3s ease;

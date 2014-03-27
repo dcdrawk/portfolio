@@ -2,7 +2,7 @@
 
 body{
 	padding: 0px;
-	background-image:url(../img/bg/honey_im_subtle.png);
+	background-image:url(../img/bg/orange_light.png);
 	font-family:'Source Sans Pro', sans-serif;	
 }
 
@@ -90,6 +90,11 @@ strong{
 	position:relative;
 }
 
+.menuBG{
+	background-color:#16617E;
+	border:2px solid #16617E;
+}
+
 figure{
 	margin:0;
 }
@@ -118,7 +123,7 @@ figure{
 #content{
 	width:960px;
 	margin:auto;
-	margin-top:4em;
+	margin-top:1em;
 }
 
 .inline{
@@ -206,7 +211,9 @@ td em{
 }
 */
 
-
+#aboutSection{
+	float:right;
+}	
 
 .noMargin{
 	margin:0;
