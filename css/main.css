@@ -76,6 +76,10 @@ strong{
 	font-weight:600;
 }
 
+.active{
+	color:white;
+}
+
 .navLink{
 	transition:background .4s ease, border .5s ease;
 	border-right:1px solid #16617E;

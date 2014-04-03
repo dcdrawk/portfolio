@@ -128,7 +128,6 @@ function onScroll(event){
         else{
             currLink.removeClass("active");
         }
-		
     });
 	
 }

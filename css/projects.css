@@ -1,13 +1,13 @@
 .projectLink{
 	background-position: 0 -2em;
-	height:3em!important;
 	text-align:left;
 	text-shadow:2px 2px black;
 	margin-top:.5em;
-	padding:1em;
-	padding-top:.5em;
+	padding:.25em;
 	margin-top:0;
-	border-bottom:2px solid rgb(18, 47, 99);
+	text-align:center;
+	background-color:#0F3442;
+	box-shadow:inset 0px 0px 5px black;
 }
 
 #projectSidebar{
@@ -27,7 +27,7 @@
 #projectSidebar h1{
 	color:#999;	
 	border-bottom:1px solid #0F3442;
-	font-size:2em;
+	font-size:1.5em;
 	-webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     -o-transition: all 0.25s ease;
@@ -39,7 +39,6 @@
 #projectSidebar h1:hover{
 	background-color:#11546F;	
 	border-bottom:1px solid #0F3442;
-	font-size:2em;
 }
 
 #projectSidebar a{
@@ -62,7 +61,7 @@
 }
 
 .projectLink h1{
-	font-size:1.5em;
+	font-size:1em;
 	color:#7A4B16;
 	font-weight:500;
 	-webkit-transition: all 0.25s ease;
@@ -72,7 +71,7 @@
 }
 
 .projectLink h2{
-	font-size:1.5em;
+	font-size:1.25em;
 	color:#999	;
 	font-weight:400;
 	-webkit-transition: all 0.25s ease;
@@ -99,7 +98,7 @@
 
 #projectSidebar .activeLink h1{
 	color:#fff;
-	background-color:11546F;
+	background-color:#11546F;
 }
 
 #projectSidebar .activeLink h2{
@@ -136,9 +135,7 @@
 }
 
 #uforia{
-	background-image:url(../img/projects/uforia.jpg);
 	background-size:cover;
-	background-color:rgba(55, 55, 55, 0.50);
 	transition:box-shadow .3s ease;
 	cursor:pointer;
 }
@@ -148,41 +145,31 @@
 }
 
 #theSandwich{
-	background-image:url(../img/projects/sandwich.jpg);
 	background-size:cover;
-	background-color:#888;
 	transition:box-shadow .3s ease;
 	cursor:pointer;
 }
 
 #gestureRemote{
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/kinect.jpg);
 	background-size:cover;
-	background-color:#888;
 	transition:box-shadow .3s ease;
 	cursor:pointer;
 }
 
 #harvey{
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/harvey.jpg);
 	background-size:cover;
-	background-color:#888;
 	transition:box-shadow .3s ease;
 	cursor:pointer;
 }
 
 #qwert{
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/qwert.jpg);
 	background-size:cover;
-	background-color:#888;
 	transition:box-shadow .3s ease;
 	cursor:pointer;
 }
 
 #amnesia{
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/amnesia.jpg);
 	background-size:cover;
-	background-color:#888;
 	transition:box-shadow .3s ease;
 	cursor:pointer;
 }
@@ -198,13 +185,11 @@ iframe{
 }
 
 #uforiaProject{
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/uforia.jpg);
 	background-size:cover;
 	background-color:rgba(55, 55, 55, 0.50);	
 }
 
 #theSandwichProject{
-	background-image:linear-gradient(rgba(55, 55, 55, 0.45), rgba(55, 55, 55, 0.45)),url(../img/projects/sandwich.jpg);
 	background-size:cover;
 	background-color:rgba(55, 55, 55, 0.50);	
 }
