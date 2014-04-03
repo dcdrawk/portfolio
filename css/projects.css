@@ -3,11 +3,23 @@
 	text-align:left;
 	text-shadow:2px 2px black;
 	margin-top:.5em;
-	padding:.25em;
 	margin-top:0;
 	text-align:center;
+	background-color:#133E4E;
+	border-bottom:1px solid black;
+	-webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.projectLink h2{
+	padding-bottom:.125em;
+	padding-top:.125em;
+}
+
+.projectLink:hover{
 	background-color:#0F3442;
-	box-shadow:inset 0px 0px 5px black;
 }
 
 #projectSidebar{
@@ -21,11 +33,10 @@
 
 #projectSidebar img{
 	width:18em;
-	margin-bottom:-1.5em;
 }
 
 #projectSidebar h1{
-	color:#999;	
+	color:#DBDBDB;	
 	border-bottom:1px solid #0F3442;
 	font-size:1.5em;
 	-webkit-transition: all 0.25s ease;
@@ -98,11 +109,12 @@
 
 #projectSidebar .activeLink h1{
 	color:#fff;
-	background-color:#11546F;
+	background-color:#2dab66;
 }
 
 #projectSidebar .activeLink h2{
-	color:#F29021;
+	color:#fff;
+	background-color:#2dab66;
 }
 
 .project{
@@ -136,41 +148,28 @@
 
 #uforia{
 	background-size:cover;
-	transition:box-shadow .3s ease;
 	cursor:pointer;
 }
 
-#uforia:hover, #theSandwich:hover, #gestureRemote:hover, #harvey:hover, #qwert:hover, #amnesia:hover{
-	box-shadow:inset 0px 0px 50px rgb(150, 150, 150);
-}
 
 #theSandwich{
 	background-size:cover;
-	transition:box-shadow .3s ease;
 	cursor:pointer;
 }
 
 #gestureRemote{
-	background-size:cover;
-	transition:box-shadow .3s ease;
 	cursor:pointer;
 }
 
 #harvey{
-	background-size:cover;
-	transition:box-shadow .3s ease;
 	cursor:pointer;
 }
 
 #qwert{
-	background-size:cover;
-	transition:box-shadow .3s ease;
 	cursor:pointer;
 }
 
 #amnesia{
-	background-size:cover;
-	transition:box-shadow .3s ease;
 	cursor:pointer;
 }
 

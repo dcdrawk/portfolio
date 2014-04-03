@@ -147,8 +147,8 @@ figure{
 }
 
 #devin img{
-	width:50%;
-	float:right;
+	width:40%;
+	float:left;
 	margin-left:1em;
 	margin-bottom:.5em;
 }
@@ -231,7 +231,7 @@ td em{
 }
 
 .noBorder{
-	border:0;
+	border:0!important;
 }
 
 .noPadding{
