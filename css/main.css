@@ -7,8 +7,6 @@ body{
 	 background-attachment: fixed;
 }
 
-
-
 html,body{
     width: 100%;
     height: 100%;
@@ -21,30 +19,30 @@ html,body{
 header{
 	width:auto;
 	clear:both;
-}
-
-header{
 	margin-top:0;
 	height:auto;
-	background-image:url(../img/bg/az_subtle.png);
-	border-bottom: solid 2px #F29021;
+	background-image:url(../img/bg/az_subtle_blue.png);
+	border-bottom: solid 2px #11546F;
 	box-shadow:0px 2px 2px #888888;
-	position:fixed;
 	width:100%;
-	margin-bottom:1em;
 }
 
 nav{
-	width:70%;
+	width:100%;
 	display:inline-block;
 	vertical-align:bottom;
+	background-color:#16617E;
 }
 
+
+
 nav a{
-	color:#16617E;
+	color:#fff!important;
 	display:inline;
 	text-decoration:none;
-	font-size:1.25em;
+	font-size:1.5em;
+	font-weight:300;
+	text-shadow:1px 1px 2px #000;
 }
 
 h1{
@@ -60,7 +58,7 @@ h1{
 h2{
 	color: #777;
 	margin-top:0;
-	margin-bottom:0;
+	margin-bottom:.5em;
 	font-weight:300;
 }
 
@@ -73,20 +71,35 @@ h3{
 }
 
 strong{
-	font-weight:600;
+	font-weight:700;
+}
+
+h1 a:visited{
+	color:#777!important;
+	text-decoration:overline!important;
+}
+::selection {
+	background: #e2dbd0; /* Safari */
+	}
+::-moz-selection {
+	background: #e2dbd0; /* Firefox */
 }
 
 .active{
 	color:white;
+	background-color:#2dab66!important;
 }
 
 .navLink{
-	transition:background .4s ease, border .5s ease;
+	-webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 	border-right:1px solid #16617E;
 }
 
 .navLink:hover{
-	background:rgba(255, 255, 255, 0.6);
+	background:#11546F;
 }
 	
 
@@ -115,21 +128,21 @@ figure{
 
 #logo img{
 	margin-top:.25em;
-	height:2em;
+	height:4em;
 	margin-right:1em;
 }
 
 #logo h1{
-	font-size:2em;
-	font-weight:500;
+	font-size:2.25em;
+	font-weight:300;
 	display:inline;
-	color:#888;
+	color:#000;
 }
 
 #content{
 	width:960px;
 	margin:auto;
-	margin-top:1em;
+	margin-top:0em;
 }
 
 .inline{
@@ -141,20 +154,21 @@ figure{
 	background-image:url(../img/bg/egg_shell.png);
 	height:auto;
 	margin:0;
-	padding:1em!important;
-	border:1px solid #F29021;
+	padding:1.5em!important;
 	overflow: auto;
 }
 
 #devin img{
-	width:40%;
+	width:30%;
 	float:left;
 	margin-left:1em;
 	margin-bottom:.5em;
 }
 
 #cats img{
-	width:100%;
+	width:60%;
+	float:right;
+	margin-left:.5em;
 }
 
 .project img{
@@ -175,7 +189,7 @@ table{
 }
 
 th{
-	color:#F29021;
+	color:#CA7314;
 	font-weight:600;
 	text-align:right;
 	vertical-align:top;
@@ -218,12 +232,15 @@ td em{
 */
 
 #aboutSection, #projectSection, #experienceSection, #contactSection{
-	margin-bottom:1em;
 }
 
 
 .right{
 	float:right;
+}
+
+.left{
+	float:left;
 }
 
 .noMargin{
@@ -235,19 +252,31 @@ td em{
 }
 
 .noPadding{
-	padding:0;
+	padding:1px!important;
 }
 
 .hidden{
 	display:none;
 }
 
+.borderTop{
+	border-bottom: 1px solid #999;
+	width:90%;
+	margin:auto;
+	margin-bottom:1em;
+}
+
+.borderLeft{
+	border-left: 1px solid #999;
+}
+
 #scrollNav{
-display:inline;
+	display:inline;
 	position:absolute;
 	width:960px;
 	left:25%;
 }
+
 #scrollHeader{
 	height:1.8em;
 	position:fixed;
@@ -261,4 +290,101 @@ display:inline;
 #scrollLogo img{
 	height:1.2em;
 	display:inline;
+}
+
+#catOutline{
+	float:right;
+}
+
+#catOutline img{
+	height:4em;
+	bottom:0;
+	vertical-align:bottom;
+}
+
+#leviExperience, #dodgerExperience {
+	padding:1em;
+	text-align:left;
+}
+
+#leviExperience h3, #dodgerExperience h3{
+	color:black;
+	border-bottom:0;
+	margin-bottom:0;
+	margin-top:0;
+}
+
+#leviExperience p, #dodgerExperience p{
+	margin-top:.5em;
+	margin-bottom:0;
+	font-size:.95em;
+}
+
+.leviComment{
+	padding:.75em;
+	background-color:#9CBDCF;
+	border:1px solid black;
+	border-radius:1em;
+	clear:both;
+	box-shadow:2px 2px 2px #999;
+}
+
+.dodgerComment{
+	padding:.75em;
+	background-color:#CFC19C;
+	border:1px solid black;
+	border-radius:1em;
+	clear:both;
+	box-shadow:2px 2px 2px #999;
+}
+
+#leviExperience img{
+	width:100%;
+	float:right;
+	margin-bottom:.5em;
+}
+
+ #dodgerExperience img{
+ 	width:50%;
+	margin-bottom:.25em;
+	margin-top:.25em;
+	margin-left:25%;
+ }
+#processToggle{
+	width:100%;
+	text-align:center;
+	border:1px solid #888;
+	margin-top:.5em;
+	padding:.5em;
+	background-color:#d1dee5;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	cursor:pointer;
+}
+
+#processToggle:hover{
+	background-color:#B0D8EE;
+}
+
+#moreProcess{
+	height:20em;
+}
+
+.breadcrumb{
+	color:#999!important;
+	text-decoration:none!important;
+}
+
+#projectSection h4{
+	font-weight:400;
+	font-size:1.5em;
+}
+#projectSection h1, #projectSection h4{
+	display:inline;
+}
+
+a{
+	text-decoration:none!important;
 }

@@ -1,3 +1,4 @@
+<!doctype html>
 <html> 
 <!-- Header; Set up character-set; link to CSS style-sheet; -->
 	<head>
@@ -15,42 +16,58 @@
 	</head>
 	<body>
 		<header>
-			<div class="header_container">
+			<div id="topHeader" class="header_container">
 				<figure id="logo">
-					 <a href="index.html"><img src="img/dc-logo.png"></a>
+					 <a href="index.html"><img src="img/dc-logo.png" alt="The logo of Devin Cook, a pinwheel that cleverly uses the D and C initials as parts of the wheel"></a>
+					 <h1>Devin Cook</h1>
 				</figure>
 				<nav class="grid">
-					<div class="col-1of4 navLink">
-						<a href="index.html" class='nav_link'>Home</a>
-					</div>
-					<div class="col-1of4 navLink">
-						<a href="projects.html" class='nav_link'>Projects</a>
-					</div>
-					<div class="col-1of4 navLink">
-						<a href="experience.html" class='nav_link'>Experience</a>
-					</div>
-					<div class="col-1of4 navLink noBorder">
-						<a href="contact.html" class='nav_link'>Contact</a>
-					</div>
+					<a href="index.html" class='nav_link'>
+						<div class="col-1of4 navLink">
+							Home
+						</div>
+					</a>
+					<a href="projects.html" class='nav_link'>
+						<div class="col-1of4 navLink">
+							Projects
+						</div>
+					</a>
+					<a href="experience.html" class='nav_link'>
+						<div class="col-1of4 navLink active">
+							Experience
+						</div>
+					</a>
+					<a href="contact.html" class='nav_link'>
+						<div class="col-1of4 navLink">
+							Contact
+						</div>
+					</a>
 				</nav>
+				
 			</div>
 		</header>
+		
 		<section id="content" class="grid">			
-			<div class="col-1of1">
-				<div class="contentPane">
+			<div class="col-3of4 contentPane">
+					
 					<h1>Experience</h1>
+						
 					<h2>//Where I got my learnin'</h2>
-					<h1>Industry & Design Experience</h3>
+					
+					<h3>Industry & Design Experience
+						
+					</h3>
 					<div class="job borderBottom">
 						<table>
-							<tr>
-								<th>Company</th>
-								<td>Downtown Surrey Business Improvement Association <em>Sep-Dec 2013</em></td>
-							</tr>
 							<tr>
 								<th>Title</th>
 								<td><strong>Web & Graphic Design Intern</strong></td>
 							</tr>
+							<tr>
+								<th>Company</th>
+								<td>Downtown Surrey Business Improvement Association <em>Sep-Dec 2013</em></td>
+							</tr>
+							
 							<tr>
 								<th>Role</th>
 								<td>Developed and maintained websites for the BIA, including surreymarathon.com, surreycitycentre.ca, surreyfest.com, and downtownsurreybia.com. Designed graphics for web and print materials (such as newspaper ads, logos, banners, posters, newsletters, and flyers) to promote events and camptaigns.</td>
@@ -65,13 +82,14 @@
 					<div class="job">
 						<table>
 							<tr>
-								<th>Company</th>
-								<td>Simon Fraser University <em>Jan-Aug 2012<em></td>
-							</tr>
-							<tr>
 								<th>Title</th>
 								<td><strong>Marketing & Communications Assistant</strong></td>
 							</tr>
+							<tr>
+								<th>Company</th>
+								<td>Simon Fraser University <em>Jan-Aug 2012</em></td>
+							</tr>
+							
 							<tr>
 								<th>Role</th>
 								<td>Responsible for creating promotional web and print material for Health and Counselling Services. This included a campaign to promote a student health survey as well as updating the HCS website to use a new content management system. I also created 1-page information sheets, posters, and web banners.</td>
@@ -92,8 +110,21 @@
 						<p><strong>Abbotsford Virtual School - 3D Content Creation </strong><em>- fall-spring 2007</em></p>
 						<p>Online course which required weekly online meetings which included presentations, demos and critiques by both instructors and students. The course provided a good balance of team-based and solo work. I helped organize online meetings with teammates to discuss and work on projects.</p>
 					</div>
-				</div>
 			</div>
+			
+			<div id="leviExperience" class="col-1of4">
+				<figure id="codeCat">
+					<img src="img/cats/levi-crop1.png" alt="placeholder alt">
+				</figure>
+				<div class="leviComment">
+					<h3>Levi sez:</h3>
+					<p>Over the years, Devin has refined his craft while attending SFU and completing two co-op semesters. After he goes to class, he comes back to lecture us for hours about everything he learned.</p>
+					
+					<p>This may sound like torture, but we are Code Cats with nothing better to do. We use our skills to help Devin on his assignments to make sure everything is pixel purr-fect</p>	
+				</div>
+				
+			</div>
+			
 		</section>
 		
 	</body>

@@ -1,3 +1,4 @@
+<!doctype html>
 <html> 
 <!-- Header; Set up character-set; link to CSS style-sheet; -->
 	<head>
@@ -10,20 +11,22 @@
 		<link href="css/projects.css" rel="stylesheet">	
 		<script src="js/jquery-1.11.0.min.js"></script>
 		<script src="js/ui.js"></script>
-		<script src="js/projects.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic' rel='stylesheet' type='text/css'>
 		<link rel="icon" type="image/png" href="img/dc-ico.png" />
 		<title>Devin Cook: Projects</title>
 	<!-- Close head tag -->
 	</head>
 	<body>
-		<!--
+		
 		<header>
 			<div id="topHeader" class="header_container">
-				
+				<figure id="logo">
+					 <a href="index.html"><img src="img/dc-logo.png" alt="The logo of Devin Cook, a pinwheel that cleverly uses the D and C initials as parts of the wheel"></a>
+					 <h1>Devin Cook</h1>
+				</figure>
 				<nav class="grid">
 					<a href="index.html" class='nav_link'>
-						<div class="col-1of4 navLink">
+						<div class="col-1of4 navLink active">
 							Home
 						</div>
 					</a>
@@ -43,294 +46,54 @@
 						</div>
 					</a>
 				</nav>
+				
 			</div>
-		-->
-			
 		</header>
-		<section id="content" class="grid">	
-							
-			<div id="projectSidebar" class="menu col-1of3">
-				<img src="img/cats/leviCrop.png">
+		
+		<section id="content" class="grid">
+			<div id="aboutSection" class="col-3of4 contentPane ">
 				
-				<div id="" class="noMargin titleBar menuBG">
-					
-					<ul>
-						<li>
-							<a href="#aboutSection" class='nav_link aboutClass activeLink'>
-								<h1>Devin Cook</h1>
-							</a>
-						</li>
-					</ul>
-					
-					
-					<ul>
-						<li>
-							<a href="#projectSection" class='nav_link projectClass'>
-								<h1>Projects</h1>
-							</a>
-						</li>
-					</ul>
-				
-				
-					<ul>
-						<li>
-							<a href="#uforiaLink" class="uforiaClass">
-								<div id="uforia" class="projectLink">
-									<h2>UFOria</h2>								
-								</div>
-							</a>
-						</li>
-					</ul>
-					
-					<ul>
-						<li>
-							<a href="#theSandwichLink" class="sandwichClass">
-								<div id="theSandwich" class="projectLink">
-									<h2>The Sandwich</h2>
-								</div>
-							</a>
-						</li>
-					</ul>
-					
-					<ul>
-						<li>
-							<a href="#gestureRemoteLink"  class="gestureClass">
-								<div id="gestureRemote" class="projectLink">
-									<h2>Kinect Remote</h2>
-								</div>
-							</a>
-						</li>
-					</ul>
-					
-					<ul>
-						<li>
-							<a href="#harveyLink" class="harveyClass">
-								<div id="harvey" class="projectLink">
-									<h2>Harvey the Hamster</h2>
-								</div>
-							</a>
-						</li>
-					</ul>
-					
-					<ul>
-						<li>
-							<a href="#qwertLink" class="qwertClass">
-								<div id="qwert" class="projectLink">
-									<h2>Qwert's Quest</h2>
-								</div>
-							</a>
-						</li>
-					</ul>
-					
-					<ul>
-						<li>
-							<a href="#amnesiaLink" class="amnesiaClass">
-								<div id="amnesia" class="projectLink">
-									<h2>Amnesia</h2>
-								</div>
-							</a>
-						</li>
-					</ul>
-					<ul>
-						<li>
-							<a href="#experienceSection" class='nav_link experienceClass'>
-								<h1>Experience</h1>
-							</a>
-						</li>
-					</ul>
-					
-					<ul>
-						<li>
-							<a href="#contactSection" class='nav_link contactClass'>
-								<h1>Contact</h1>
-							</a>
-						</li>
-					</ul>
-					
-				</div>
-			</div>
-			<div id="aboutSection" class="col-2of3 contentPane right">
-					<h1>About Devin...</h1>
-					<h2>//a brief intro all about me</h2>
-					<figure id="devin">
-						<img src="img/placeholder.jpg" alt="placeholder alt">
-					</figure>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum, ante in rutrum hendrerit, urna eros scelerisque eros, ut cursus sem lacus vitae lorem. Sed non congue nulla, quis luctus leo. Aliquam tempus vestibulum pharetra. Cras laoreet, lacus pretium molestie hendrerit, nisl nunc scelerisque magna, a ultrices nisl elit quis elit. Vestibulum volutpat consectetur pharetra. Fusce rhoncus euismod tempus. Pellentesque facilisis non tellus vel semper. Aliquam erat volutpat. Aenean eget eros non est aliquam molestie vel sit amet tortor. Vivamus at erat orci.</p>
+				<h1>About Devin</h1>
+				<h2>//a brief intro all about this human</h2>
+				<figure id="devin">
+					<img src="img/devin-face.png" alt="a disembodied picture of Devin Cook - It's probably not best to think about it that way">
+				</figure>
+				<p>I'm a fourth year student at Simon Fraser University's School of Interactive Arts & Technology. I'm also an avid gamer, and I like to view a game as a set of tools needed to solve a problem of complete a quest. Likewise, SIAT has equipped me with a +5 Sword of Mastery needed to tackle any design project, ranging from web design, 3d animation, immersive game design, and much more.</p>
 
-					<p>Suspendisse accumsan posuere odio eu porta. Curabitur et dictum nisl. Integer sollicitudin felis eu nulla placerat accumsan. Nunc orci odio, hendrerit id nisi adipiscing, faucibus venenatis arcu. Phasellus et ullamcorper tortor, vel sagittis sapien. Nam eleifend ante at facilisis euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum sit amet sapien metus. Aenean in diam eget risus posuere adipiscing quis sit amet dui. Donec venenatis, leo ac posuere condimentum, lacus lacus viverra risus, sed aliquet lectus ante sed nulla. Nunc nec lacus at purus sagittis placerat sed ac ante. Morbi tincidunt sagittis dolor quis commodo. Etiam vel purus nec eros placerat placerat.</p>
-					<figure id="cats">
-						<img src="img/placeholder.jpg" alt="placeholder alt">
-					</figure>
+				<p>My two co-op experiences gave me a +5 Shield of Fortitude when it comes to handling a multitude of design projects. These ranged designing posters, brochures, and flyers, to various web design CMS projects using Adobe CQ5 and Wordpress.</p>
+				
+				<p>I pride myself on being able to solve problems. Whether it's sketching an interface or debugging my code, there's always something to learn and improve upon. Even if I stumble, I will find new ways to approach the design I am working on.</p>
+				
+				<div id="recentWork">
+					<h1>Recent Work:</h1>
+					<h2>//what I've been working on lately</h2>
+					<div id="uforia" class="projectLink">
+						<h1>UFOria</h1>	 
+						<h2>//Immersive Game Environment</h2>	
+					</div>
+					<div id="theSandwich" class="projectLink right">
+						<h1>The Sandwich</h1>	 
+						<h2>//3D Animated Short</h2>	
+					</div>
+				</div>	
 			</div>
 			
-			<div id="projectSection" class="contentPane col-2of3 right">
-				<h1>Projects</h1>
-				<h2>//hand-picked favourites!</h2>
-			</div>
-			
-			<div id="projects" class="projectWindow col-2of3 ">
-				<div id="uforiaLink" class="col-1of1 project contentPane noMargin">
-					<h1>UFOria</h1>
-					
-					<iframe width="560" height="315" src="http://www.youtube.com/embed/iZy9xFdDFSE?rel=0" frameborder="0" allowfullscreen></iframe>
-					
-					<strong>Summary:</strong>
-					<p>Ever been abducted by a UFO? Now's your chance! With a small group of peers, I helped craft a rich and immersive 3D game world. Designed with a Wii Remote in mind, players use the built in gyroscope to navigate and explore.</p>
-					<strong>My Role:</strong>
-					<p>Concept & Level design, Scripting, Modelling & placing assets</p>
-					<strong>Process:</strong>
-					<p>After brainstorming our idea, we began by sketching out our framework. Once we were satisfied, we began modelling and gathering assets for our project. As we were constructing our game world, we did multiple user tests to make sure the experience was fun and bug-free.</p>
-					<strong>Result:</strong>
-					<p>Our project was featured in a class showcase at SFU's Surrey Campus and received a mark of 24/25</p>
+			<div id="leviExperience" class="col-1of4">
+				<figure id="codeCat">
+					<img src="img/cats/catCrops.png" alt="a picture of two code cats, Dodger and Levi">
+				</figure>
+				<div class="leviComment">
+					<h3>Levi & Dodger sez:</h3>
+					<p>Hi, we are the <strong>Code Cats</strong>. We helped build this website while Devin was away working on other school projects. Why do we help Devin with his homework? While we 'fall asleep' and watch him type away at his assignment, or sketch out his design ideas. We learn a lot from you silly humans this way.</p>
 				</div>
 				
-				<div id="theSandwichLink" class="col-1of1 project contentPane noMargin">
-					<h1>The Sandwich - Animated Short</h1>
-					
-					<iframe width="560" height="315" src="http://www.youtube.com/embed/MLEdSgTkL8Y?rel=0" frameborder="0" allowfullscreen></iframe>
-					
-					<strong>Summary:</strong>
-					<p>The Sandwich is an animated short which describes the unfortunate fate of a few fresh ingredients. For this project, I was tasked with lighting, rigging, placing and animating objects. I also modelled and textured several assets, including the chef himself!</p>
-					<strong>My Role:</strong>
-					<p>Concept & Level design, Scripting, Modelling & placing assets</p>
-					<strong>Process:</strong>
-					<p>Our animated short began with a series of simple sketches as we finalized our narrative. After, we collaborated together to model, texture, light, and animate our scene. After rendering each frame, we put on the final touches before presenting it to the class.</p>
-					<strong>Result:</strong>
-					<p>The Sandwich was screened in front of the class and received an A.</p>
-				</div>
-				
-				<div id="gestureRemoteLink" class="col-1of1 project contentPane noMargin">
-					<h1>Kinect - Hand Gesture Remote</h1>
-					
-					<iframe width="560" height="315" src="http://www.youtube.com/embed/wR8mFl3qczQ?rel=0" frameborder="0" allowfullscreen></iframe>
-					
-					<strong>Summary:</strong>
-					<p>For this project, we were put into teams of two. Our goal was to take an existing electronic device and minimize it to the extreme. We chose a video remote, and we decided to replace the complex controller with simple hand gestures.</p>
-					<strong>My Role:</strong>
-					<p>Programmer, Interface Designer.</p>
-					<strong>Process:</strong>
-					<p>We began by drawing out our ideas and then picking the ones we felt most confident with. We thought about using colour tracking, but we decided that the Kinect was the best way to achieve our desired functionality.</p>
-					<strong>Result:</strong>
-					<p>The video remote was featured in a class showcase where students and faculty could try it themselves. Our project received an A grade.</p>
-				</div>
-				
-				<div id="harveyLink" class="col-1of1 project contentPane noMargin">
-					<h1>Harvey The Hamster</h1>
-					
-					<iframe width="560" height="315" src="http://www.youtube.com/embed/yQRFre6s7oc?rel=0" frameborder="0" allowfullscreen></iframe>
-					
-					<strong>Summary:</strong>
-					<p>This individual assignment challenged my abilities as a media artist. Using the song Harvey the Wonder Hamster by Weird Al Yankovic as the base concept, I brainstormed, storyboarded, and edited until I was happy with the final outcome.</p>
-					<strong>My Role:</strong>
-					<p>Director, Editor, Concept & Storyboarding</p>
-					<strong>Process:</strong>
-					<p>This assignment began with brainstorming and storyboarding the rough concept. This concept was submitted for feedback, which I included in the final video. I had to book rooms, rent equiment & instruments, and edit the film.</p>
-					<strong>Result:</strong>
-					<p>When it was finished,Harvey The Wonder Hamster was shown to the class and received a mark of 23/25.</p>
-				</div>
-				
-				<div id="qwertLink" class="col-1of1 project contentPane noMargin">
-					<h1>QWERT's Quest</h1>
-					<figure>
-						<img src="img/projects/chip1.png" alt="QWERT's Quest Screenshot>
-					</figure>
-					<iframe width="560" height="315" src="http://www.youtube.com/embed/wR8mFl3qczQ?rel=0" frameborder="0" allowfullscreen></iframe>
-					
-					<strong>Summary:</strong>
-					<p>This was a self-driven effort. During the reading break, I had some free time which I used to design a simple game to explore programming and game logic with Unity. Based on the classic PC game Chip's Challenge, I wanted to replicate simple actions and functions so I could become more proficient with the Unity editor.</p>
-					<strong>My Role:</strong>
-					<p>Concept Design, Programming, 3D-Modeler</p>
-					<strong>Process:</strong>
-					<p>I started by studying Chip's challenge, and I mapped out the psudo-code related to certain game functions like picking up a key and unlocking a door. Once I understood, I used my programming, modeling, and research skills in order to bring my vision to life.</p>
-					<strong>Result:</strong>
-					<p>To guide the design process, I used test players throughout the development. All of the test players remarked on the enjoyable puzzles and retro art style.</p>
-				</div>
-				
-				<div id="amnesiaLink" class="col-1of1 project contentPane noMargin">
-					<h1>Amnesia - Sound Design Project</h1>
-					
-					<iframe width="560" height="315" src="http://www.youtube.com/embed/B8aPznktkxw?rel=0" frameborder="0" allowfullscreen></iframe>
-					
-					<strong>Summary:</strong>
-					<p>An individual assignment, we created a realistic soundscape for a video of our choosing. Using footage from the survival horror game Amnesia: The Dark Descent, I stripped out the audio and substituted it for my own recorded sounds to create a chilling atmosphere.</p>
-					<strong>My Role:</strong>
-					<p>Sound Designer, Editor, Concept Design</p>
-					<strong>Process:</strong>
-					<p>When I picked Amnesia, I found a level in the game that matched the atmosphere I wanted to convey. Then I recorded and edited a number of original sounds, as well as selected from library of free sounds. Audio was layered using Pro-Tools and Audacity.</p>
-					<strong>Result:</strong>
-					<p>My project was presented to the class. My peers and professors were impressed by the "level of atmosphere and complexity."</p>
-				</div>
-			</div>	
-			
-			
-			<div id="experienceSection" class="contentPane col-2of3 right">
-				<h1>Experience</h1>
-				<h2>//Where I've been</h2>
-				<h3>Industry & Design Experience</h3>
-				<div class="job borderBottom">
-					<table>
-						<tr>
-							<th>Company</th>
-							<td>Downtown Surrey Business Improvement Association <em>Sep-Dec 2013</em></td>
-						</tr>
-						<tr>
-							<th>Title</th>
-							<td><strong>Web & Graphic Design Intern</strong></td>
-						</tr>
-						<tr>
-							<th>Role</th>
-							<td>Developed and maintained websites for the BIA, including surreymarathon.com, surreycitycentre.ca, surreyfest.com, and downtownsurreybia.com. Designed graphics for web and print materials (such as newspaper ads, logos, banners, posters, newsletters, and flyers) to promote events and camptaigns.</td>
-						</tr>
-						<tr>
-							<th>Result</th>
-							<td>Sucessfully revamped and updated several BIA websites using the WordPress platform. In some cases, website layout and aesthetics were completely overhauled. This resulted in a drastically improved user experience reported by testers. Designed ad campaigns for the Surrey Marathon and Santa Window Walk. These ads were then published in local newspapers, such as The Province, The Leader, and The Now, which resulted in improved turnout.</td>
-						</tr>
-					</table>
-				</div>
-				
-				<div class="job">
-					<table>
-						<tr>
-							<th>Company</th>
-							<td>Simon Fraser University <em>Jan-Aug 2012<em></td>
-						</tr>
-						<tr>
-							<th>Title</th>
-							<td><strong>Marketing & Communications Assistant</strong></td>
-						</tr>
-						<tr>
-							<th>Role</th>
-							<td>Responsible for creating promotional web and print material for Health and Counselling Services. This included a campaign to promote a student health survey as well as updating the HCS website to use a new content management system. I also created 1-page information sheets, posters, and web banners.</td>
-						</tr>
-						<tr>
-							<th>Result</th>
-							<td>The survey received over eight-hundred responses, over 25% higher than the previous year. The revised HCS website improved usability for both users and web administrators. The new site was approved by the HCS Director and received glowing reviews from staff and students.</td>
-						</tr>
-					</table>
-				</div>
-				
-				<h3>Education</h3>
-				<div class="school borderBottom">
-					<p><strong>SFU - School of Interactive Arts and Technology </strong><em>- 2008-Present</em></p>
-					<p>While pursuing my degree have taken courses which emphasize the technical side of design. This has given me a wide range of programming, design and theoretical skills. With many team based projects, SIAT has provided an environment to build strong teamwork skills. I take a lot of pride in my academic work and I’m always eager to take on a new challenge.</p>
-				</div>
-				<div class="school">
-					<p><strong>Abbotsford Virtual School - 3D Content Creation </strong><em>- fall-spring 2007</em></p>
-					<p>Online course which required weekly online meetings which included presentations, demos and critiques by both instructors and students. The course provided a good balance of team-based and solo work. I helped organize online meetings with teammates to discuss and work on projects.</p>
-				</div>
 			</div>
 			
 			
-			<div id="contactSection" class="contentPane col-2of3 right">
-					<h1>Contact</h1>
-					<h2>//how to get in touch</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum, ante in rutrum hendrerit, urna eros scelerisque eros, ut cursus sem lacus vitae lorem. Sed non congue nulla, quis luctus leo. Aliquam tempus vestibulum pharetra. Cras laoreet, lacus pretium molestie hendrerit, nisl nunc scelerisque magna, a ultrices nisl elit quis elit.</p>
-			</div>
-				
-					
-				
-				
 		</section>
+		
+		
+		
 		
 	</body>
 </html>

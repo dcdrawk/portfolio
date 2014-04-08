@@ -40,6 +40,10 @@
 	width: 25%;
 }
 
+.col-3of4{
+	width: 75%;
+}
+
 .col-1of5{
 	width:20%;
 }
@@ -47,9 +51,10 @@
 
 /* This part removes a pesky blue underline on the product thumbnails */
 .col-1of2 a {
-		text-decoration: none;
+	text-decoration: none;
 }
 .col-2of3 {
+	text-align: left;
 	width: 66.666%;
 }
 .col-1of12{

@@ -1,25 +1,20 @@
 .projectLink{
-	background-position: 0 -2em;
+	background-position:-2em -2em;
 	text-align:left;
-	text-shadow:2px 2px black;
-	margin-top:.5em;
-	margin-top:0;
-	text-align:center;
+	margin-top:1em;
 	background-color:#133E4E;
-	border-bottom:1px solid black;
-	-webkit-transition: all 0.25s ease;
-    -moz-transition: all 0.25s ease;
-    -o-transition: all 0.25s ease;
-    transition: all 0.25s ease;
-}
-
-.projectLink h2{
-	padding-bottom:.125em;
-	padding-top:.125em;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	opacity:.8;
+	backface-visibility: hidden;
 }
 
 .projectLink:hover{
-	background-color:#0F3442;
+	opacity:1;
+	background-position-x:0px;
+	backface-visibility: hidden;
 }
 
 #projectSidebar{
@@ -61,6 +56,7 @@
 }
 #projectSidebar ul li{
 	list-style:none;
+	width:25%;
 }
 
 #projects{
@@ -72,9 +68,10 @@
 }
 
 .projectLink h1{
-	font-size:1em;
-	color:#7A4B16;
-	font-weight:500;
+	font-size:2.5em;
+	color:#9FB1C2;
+	font-weight:400;
+	text-shadow:2px 2px 1px black;
 	-webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     -o-transition: all 0.25s ease;
@@ -83,13 +80,16 @@
 
 .projectLink h2{
 	font-size:1.25em;
-	color:#999	;
+	color:#cacaca;
 	font-weight:400;
+	text-shadow:2px 2px 1px black;
+	padding-top:.125em;
+	margin-bottom:0;
+	opacity:1;
 	-webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     -o-transition: all 0.25s ease;
     transition: all 0.25s ease;
-	text-shadow:2px 2px 2px #333;
 }
 
 .projectLink p{
@@ -146,31 +146,72 @@
 	color:#888;
 }
 
+
+
 #uforia{
 	background-size:cover;
 	cursor:pointer;
+	background-image:url(../img/projects/uforia.jpg);
+	background-size:110%;
+	width:48%;
+	height:auto	;
+	padding:1em;
+	display:inline-block;
 }
 
 
 #theSandwich{
 	background-size:cover;
 	cursor:pointer;
+	background-image:url(../img/projects/sandwich.jpg);
+	width:48%;
+	height:auto	;
+	padding:1em;
+	display:inline-block;
 }
 
 #gestureRemote{
+	background-size:cover;
 	cursor:pointer;
+	background-image:url(../img/projects/kinect.jpg);
+	background-size:110%;
+	width:48%;
+	height:auto	;
+	padding:1em;
+	display:inline-block;
 }
 
 #harvey{
+	background-size:cover;
 	cursor:pointer;
+	background-image:url(../img/projects/harvey.jpg);
+	background-size:110%;
+	width:48%;
+	height:auto	;
+	padding:1em;
+	display:inline-block;
 }
 
 #qwert{
+	background-size:cover;
 	cursor:pointer;
+	background-image:url(../img/projects/qwert.jpg);
+	background-size:110%;
+	width:48%;
+	height:auto	;
+	padding:1em;
+	display:inline-block;
 }
 
 #amnesia{
+	background-size:cover;
 	cursor:pointer;
+	background-image:url(../img/projects/amnesia.jpg);
+	background-size:110%;
+	width:48%;
+	height:auto	;
+	padding:1em;
+	display:inline-block;
 }
 
 iframe{
